@@ -10,7 +10,9 @@ function App() {
   const pickItem = async() => {
     try {
     setItem(data[Math.floor(Math.random()*data.length)]);
-    setValues(initialValues);
+	    
+    setValues(initialValues); //reset the selected option
+	    
     } catch (err) {
     console.log(err);
     }
