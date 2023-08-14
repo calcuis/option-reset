@@ -11,7 +11,7 @@ State Initialization:
 
 `item`: A state variable that holds the currently selected question. It's initialized with an empty array using the useState hook. This initialization is likely incorrect; it should probably be initialized as null or with a default question object.
 
-`swap`: A state variable that holds a numeric value (presumably intended for something like a swap `status`). It's initialized with 0 using the useState hook.
+`swap`: A state variable that holds a numeric value (presumably intended for something like a swap status). It's initialized with 0 using the useState hook.
 
 `values`: A state variable that holds the user's selected answer choice for the current question. It's initialized with an object containing a choice property set to an empty string. This is used to track the selected answer choice.
 
